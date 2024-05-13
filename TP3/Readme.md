@@ -1,7 +1,9 @@
 Punto 1:A)¿Qué se puede notar con respecto al tiempo de ejecución? ¿Es
 predecible?
 
+
  Tiempo(sinhilos.py): (1) 5.43 , (2) 5.42 , (3) 5.42 , (4) 5.42 , (5) 5.42 , (6) 5.42 , (7) 5.42 , (8) 5.42 , (9) 5.43 , (10) 5.41 
+ 
  Tiempo (conhilos.py) : (1) 4.02 , (2) 4.01 , (3) 4.03 , (4)4.03 , (5) 4.01 , (6) 4.01 , (7)- 4.02 
 
 
