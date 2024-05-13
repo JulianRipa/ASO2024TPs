@@ -4,12 +4,17 @@ predecible?
  Tiempo(sinhilos.py): (1) 5.43 , (2) 5.42 , (3) 5.42 , (4) 5.42 , (5) 5.42 , (6) 5.42 , (7) 5.42 , (8) 5.42 , (9) 5.43 , (10) 5.41 
  Tiempo (conhilos.py) : (1) 4.02 , (2) 4.01 , (3) 4.03 , (4)4.03 , (5) 4.01 , (6) 4.01 , (7)- 4.02 
 
+
  RTA: Lo que puedo notar con respecto al tiempo de ejecucion es que el codigo (conhilos.py) tiene un tiempo levemente mas rapido al correr que el codigo (sinhilos.py). Estos puede ser predecibles al correrse en un dispositivo unico, ya que al correrse en un PC diferente varia el tiempo de ejecuccion.
+
+
 
 
  b) Comparar con un campañero el tiempo de ejecución. ¿Son iguales?.
 
  Rta: Compare los tiempos con una compañera y estos no son iguales. El archivo (SinHilos.py) en el PC de mi compañera rondan entre 5.14 / 5.24 segundos y en mi PC entre 5.41 / 5.43 tieniendo una leve diferencia entre nuestras computadoras, Pero en el archivo (conhilos.py) nos dio tiempos iguales con un promedio de entre 4.01 / 4.03.
+
+
 
  c) Ejecutar el archivo suma_rasta.py unas 10 veces, luego descomentar ,(borrar el #) las líneas 11,12,19 y 20 guardarlo y ejecutarlo otras 10 veces. ¿Qué pasó? ¿Por qué?.
 
@@ -17,9 +22,11 @@ predecible?
 
 
 
+
+
  2 ) A)
  
- #include <pthread.h>
+#include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
 #define NUMBER_OF_THREADS 2
@@ -75,6 +82,8 @@ int main(int argc, char argv[])
     }
     pthread_exit(NULL); // como los hilos que cree ya terminaron de ejecutarse, termino yo tambien.
 }
+
+
 
 2) B)
    ![DiagramaHamburguesas](https://github.com/JulianRipa/ASO2024TPs/assets/167567929/58973c53-d32f-4fdf-ae12-5a73106a219a)
