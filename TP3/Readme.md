@@ -77,4 +77,5 @@ int main(int argc, char argv[])
 }
 
 2) B)
-   
+   ![DiagramaHamburguesas](https://github.com/JulianRipa/ASO2024TPs/assets/167567929/58973c53-d32f-4fdf-ae12-5a73106a219a)
+
